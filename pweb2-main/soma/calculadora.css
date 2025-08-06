@@ -1,0 +1,18 @@
+a{
+    display: grid;
+    place-items: center;   
+    height: 100vh;          
+    margin: 0; 
+    font-size: 150%; 
+}
+
+body{
+    background-color: aqua;
+}
+
+textarea{
+    resize: none;
+    width: 300px;
+    height: 300px;
+}
+
