@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="Stylesheet" type="text/css" href="calculadora.css">
+    <script>
+        function somar(){
+    const n1 = document.getElementById('n1').value
+    const n2 = document.getElementById('n2').value
+    const soma = Number(n1) + Number(n2)    
+    console.log("A soma dos números é: " + soma); 
+    resultado.innerHTML = "A soma dos numaros é: "+ soma;
+   }
+
+   function subtracao(){
+    const n1 = document.getElementById('n1').value
+    const n2 = document.getElementById('n2').value
+    const subtracao = Number(n1) - Number(n2)    
+    console.log("A subtracao dos números é: " + subtracao); 
+    resultado.innerHTML = "A subtracao dos numaros é: "+ subtracao;
+   }
+
+   function divisao(){
+    const n1 = document.getElementById('n1').value
+    const n2 = document.getElementById('n2').value
+    const divisao = Number(n1) / Number(n2)    
+    console.log("A divisao dos números é: " + divisao); 
+    resultado.innerHTML = "A divisao dos numaros é: "+ divisao;
+   }
+
+   function multiplicao(){
+    const n1 = document.getElementById('n1').value
+    const n2 = document.getElementById('n2').value
+    const multiplicao = Number(n1) * Number(n2)    
+    console.log("A multiplicao dos números é: " + multiplicao); 
+    resultado.innerHTML = "A multiplicao dos numaros é: "+ multiplicao;
+   }
+     </script>
+</head>
+<body>
+    <form action="">
+        N1: <input type="text" id='n1' /><br>
+        N2: <input type="text" id='n2' id="N2" /><br>
+
+       <h2> <input type="button" value="Somar" onclick="somar()"></input>
+        <input type="button" value="subtracao" onclick="subtracao()"></input>
+        <input type="button" value="divisao" onclick="divisao()"></input>
+        <input type="button" value="multiplicao" onclick="multiplicao()"></input></h2>
+        <h1 id="resultado">O resultado do calculo é:</h1>
+    </form>
+    
+
+
+    <a href="../04-08/primeiraAula.HTML">voltar</a>
+
+   
+
+</body>
+</html>

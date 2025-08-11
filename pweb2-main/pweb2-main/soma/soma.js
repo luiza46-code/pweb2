@@ -1,3 +1,5 @@
+
+
 const n1=parseFloat(prompt("Digite um numero"));
 const n2=parseFloat(prompt("Digite um numero"));
 

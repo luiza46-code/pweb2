@@ -1,0 +1,29 @@
+a{
+    display: grid;
+    place-items: center;             
+    margin: 0; 
+    font-size: 150%; 
+    
+}
+
+body{
+    background-color: aqua;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+h1{
+    padding: 50px;
+}
+
+
+input{
+    
+    margin: 10px;
+}
+
+h2{
+    padding: 50px;
+}

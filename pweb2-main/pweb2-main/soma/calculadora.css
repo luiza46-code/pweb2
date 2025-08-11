@@ -9,3 +9,10 @@ a{
 body{
     background-color: aqua;
 }
+
+textarea{
+    resize: none;
+    width: 300px;
+    height: 300px;
+}
+
